@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">To Do List App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo">Título da tarefa</string>
+    <string name="descricao">Descrição da tarefa</string>
+    <string name="data">Data para a realização</string>
+    <string name="seleciona_data">Selecione a data</string>
+    <string name="salvar">Salvar</string>
+    <string name="inf_titulo">Informe o título</string>
+    <string name="inf_descricao">Informe a descrição</string>
+    <string name="inf_data">Informe uma data</string>
+</resources>
