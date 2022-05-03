@@ -140,6 +140,8 @@ public class CadTarefaFragment extends Fragment {
         protected void onPostExecute(String resultado) {
             if (resultado.equals("ok")){
                 Log.w("RESULTADO", "IUPIIIII");
+                // voltar para a tela anterior (acionar botão de voltar)
+                getActivity().onBackPressed();
             }else{
                 Log.w("RESULTADO", resultado);
                 Toast.makeText(getContext(), "DEU RUIM "+resultado, Toast.LENGTH_SHORT).show();
